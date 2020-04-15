@@ -1,4 +1,17 @@
-body 
-{
-    background: black;
+.global_b {
+    color: white;
+    background-color:black;
+}
+.header_menu_profile_desplegable {
+    list-style: none;
+    text-decoration: none;
+    
+}
+.header_menu_profile_desplegable li a {
+    text-decoration: none;
+    color: white;
+}
+#icon_p {
+    background-color: white;
+    border-radius: 50px;
 }
