@@ -1,17 +1,26 @@
 .global_b {
     color: white;
     background-color:black;
+    font-family:'Heebo', sans-serif;;
 }
-.header_menu_profile_desplegable {
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header_menu-nav{
+    margin-right: 30px;
+    margin-bottom: -10px;
+    align-self: flex-end;
+}
+.header_menu-list {
     list-style: none;
-    text-decoration: none;
-    
+    display: flex;
 }
-.header_menu_profile_desplegable li a {
+.header_menu-list li{
+    padding-left: 10px;
+}
+.header_menu-list li a {
     text-decoration: none;
     color: white;
-}
-#icon_p {
-    background-color: white;
-    border-radius: 50px;
+    
 }
