@@ -40,9 +40,62 @@
     font-size: -webkit-xxx-large;
 }
 .sobre_mi{
-    background: orangered;
+    background: #A8201A;
     display: flex;
     justify-content: space-between;
     justify-self: center ;
     padding: 20px 80px;
 }
+.sobre_mi-p{
+    font-size: x-large;
+}
+.proyecto {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.proyecto_box {
+    /* border: 1px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+  }
+.proyecto_titulo {
+    margin-left: 20px;
+  }
+.proyecto_box-art { 
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f4fbff;
+  }
+.proyecto_box-art-fig-img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+  }
+.proyecto_box-dtl{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+  }
+.proyecto_box-dtl-desc {
+    text-align: left;
+  }
+  
+.proyecto_box-dtl-url {
+    color: #056fff;
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
