@@ -39,3 +39,10 @@
     transform: translate(-50%, -65%);
     font-size: -webkit-xxx-large;
 }
+.sobre_mi{
+    background: orangered;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center ;
+    padding: 20px 80px;
+}
