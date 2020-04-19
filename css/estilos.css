@@ -24,12 +24,26 @@
     display: flex;
 }
 .header_menu-list li{
-    padding-left: 10px;
+  border-left: 3px solid white;
+  padding-left: 8px;
+  padding-right: 5px;
 }
-.header_menu-list li a {
-    text-decoration: none;
+a.header_menu-list-link{
+  color: white;
+}
+a.header_menu-list-link:link{
+  text-decoration:none;
+}
+/* a:-webkit-any-link{
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+} */
+}
+/* .header_menu-list-link {
     color: white;
-}
+    text-decoration: none;
+} */
 .img_pc{
     position: relative;
     display: inline-block;
