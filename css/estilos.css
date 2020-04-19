@@ -4,9 +4,11 @@
 #ec9a29
 #a8201a */
 .global_b {
+    overflow-x: hidden ;
     color: white;
     background-color:black;
     font-family:'Heebo', sans-serif;
+    margin: 0px
 }
 .header{
     display: flex;
