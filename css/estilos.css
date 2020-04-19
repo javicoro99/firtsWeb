@@ -1,3 +1,8 @@
+/* #dad2d8 */
+/* #143642
+#0f8b8d
+#ec9a29
+#a8201a */
 .global_b {
     color: white;
     background-color:black;
@@ -63,16 +68,20 @@
     height: inherit;
     flex-wrap: inherit;
   }
-.proyecto_titulo {
-    margin-left: 20px;
+.proyecto_tit {
+    display: flex;
+    justify-content: center;
   }
+figure{
+margin: 0px;
+}
 .proyecto_box-art { 
     margin: 10px;
     width: 480px;
     flex-shrink: 0;
     border-radius: 10px;
     overflow: hidden;
-    background: #f4fbff;
+    background: #ec9a29;
   }
 .proyecto_box-art-fig-img {
     width: 480px;
@@ -82,7 +91,7 @@
 .proyecto_box-dtl{
     margin: 20px 40px;
     margin-top: -40px;
-    background-color: white;
+    background-color: #0f8b8d;
     position: relative;
     padding: 20px;
     text-align: center;
@@ -92,7 +101,7 @@
   }
   
 .proyecto_box-dtl-url {
-    color: #056fff;
+    color: #dad2d8;
     border: 1px solid;
     padding: 5px 20px;
     text-decoration: none;
